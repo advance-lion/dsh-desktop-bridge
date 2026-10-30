@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "桌面兜底桥",
+    "description": "在所有会话中提供一个最后手段工具：把屏幕操作委派给 Computer Use 智能体，并保证同一时间只有一个任务占用桌面。需要先安装 dsh-orb 插件以提供 Computer Use 预设。"
+  }
+}

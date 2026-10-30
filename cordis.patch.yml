@@ -1,0 +1,15 @@
+# Desktop fallback bridge.
+# One delegation tool for every session; desktop work stays serialized by the
+# bridge scheduler and by dsh-orb's screen-owner / action lock.
+
+- insert:
+    - id: desktop-bridge
+      name: 'dsh-desktop-bridge'
+      config:
+        # auto | explicit_only | off
+        mode: auto
+        workerPreset: computer-use
+        spawnProvider: spawn
+        maxWaitSeconds: 300
+        maxRunSeconds: 600
+        maxTasksPerSession: 1

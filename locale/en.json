@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Desktop Fallback Bridge",
+    "description": "Gives every session one last-resort tool that delegates on-screen work to a Computer Use agent, and keeps the desktop owned by one task at a time. Requires the dsh-orb plugin for the Computer Use preset."
+  }
+}
