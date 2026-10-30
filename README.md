@@ -95,13 +95,19 @@ When you want it to **act without deliberating**, tag it:
 
 ## A real run
 
-This is an actual run: the task was handed to a desktop worker session, which pressed `7 × 8 =` key by key. **The result was not computed by the model — it was read back from the calculator UI.**
+An actual run, recorded on a secondary display: the task was handed to a desktop worker session, which pressed `C` → `7` → `×` → `8` → `=` key by key. **The result was not computed by the model — it was read back from the calculator UI.**
 
 <p align="center">
-  <img src="docs/media/calculator-7x8.png" width="300" alt="Calculator showing 7 × 8 = 56, produced by the desktop worker">
+  <img src="docs/media/desktop-task.gif" width="720" alt="The desktop worker pressing C, 7, ×, 8, = on a calculator and reading back 56">
 </p>
 
-> Only the target window is shown: a full-screen capture would carry personal content and does not belong in a public repo.
+<sub>Recorded at 1 frame per ~0.4 s and played back slightly faster than real time. Only the target display is captured.</sub>
+
+The still frame below is the verified end state:
+
+<p align="center">
+  <img src="docs/media/calculator-7x8.png" width="260" alt="Calculator showing 7 × 8 = 56, produced by the desktop worker">
+</p>
 
 ---
 
